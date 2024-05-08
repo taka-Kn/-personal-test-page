@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML個人練習用につくりました">
+    <title>Tk'sPracticeSite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/sanitize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- header-->
+    <header>
+        <h1 class ="headerline">
+            <a>Tk'sPracticePage</a>
+        </h1>
+        <ul class ="naviList">
+            <li class="naviList-item">
+                <a>Home</a>
+            </li>
+            <li class="naviList-item">未使用</li>
+            <li class="naviList-item">未使用2</li>
+            <li class="naviList-item">未使用3</li>
+            <li class="naviList-item">未使用4</li>
+            <li class="naviList-item">色々試す用</li>
+        </ul>
+
+    </header>
+    <section class="section">
+        <h1 class="section-headline">画像添付1</h1>
+        <figure class="heading1">
+            <img class="heading1-image"src="https://dummyimage.com/600x400/34b6bf/fff&text=image600*400" alt="testImage">
+            <figcaption class="heading1-caption">
+                <h2 class="heading1-headline">画像名</h2>
+                <p class="heading1-discription">
+                    test text test text test text test text test text test text<br/>
+                    test text test text test text test text test text test text test 
+                    <br/>
+                    ・画像説明文（改行時には< br/ >を使う）
+                    
+                </p>
+
+            </figcaption>
+        </figure>
+
+    </section>
+    <section class="section second-section">
+        <h1 class="section-headline">要素横並べ</h1>
+        <ul class="grid grid-col-4">
+            <li class="grid-item">
+                <dl class="element">
+                    <dt class="element-headline">日本語</dt>
+                    <dd class="element-image">
+                        <img src="./assets/images/ntf_131.png" width="150" height="100" alt="">
+                    </dd>
+                    <dd class="element-discription">
+                        例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文 例文
+                    </dd>
+                </dl>
+            </li>
+            <li class="grid-item">
+                <dl class="element">
+                    <dt class="element-headline">英語</dt>
+                    <dd class="element-image">
+                        <img src="./assets/images/ntf_401.png" width="150" height="100" alt="">
+                    </dd>
+                    <dd class="element-discription">
+                        example example example example example example example example
+                    </dd>
+                </dl>
+            </li>
+            <li class="grid-item">
+                <dl class="element">
+                    <dt class="element-headline">スペイン語</dt>
+                    <dd class="element-image">
+                        <img src="./assets/images/ntf_728.png" width="150" height="100" alt="">
+                    </dd>
+                    <dd class="element-discription">
+                        Oración de ejemplo Oración de ejemplo Oración de ejemplo Oración de ejemplo
+                    </dd>
+                </dl>
+            </li>
+            <li class="grid-item">
+                <dl class="element">
+                    <dt class="element-headline">アイスランド語</dt>
+                    <dd class="element-image">
+                        <img src="./assets/images/ntf_301.png" width="150" height="100" alt="">
+                    </dd>
+                    <dd class="element-discription">
+                        Dæmi setning Dæmi setning Dæmi setning Dæmi setning Dæmi setning Dæmi setning
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h1 class="section-headline">（仮）問い合わせ</h1>
+        <form action="" class="form">
+            <table class="form-table">
+                <tr>
+                    <th>
+                        Menu
+                    </th>
+                    <td>
+                        <select class="select" name="" id="">
+                            <option value="menu-1">Menu1</option>
+                            <option value="menu-2">Menu2</option>
+                            <option value="menu-3">Menu3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="name">
+                            名前
+                        </label>
+                    </th>
+                    <td>
+                        <input class="input" type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email">
+                            Email
+                        </label>
+                    </th>
+                    <td>
+                        <input class="input" type="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        性別
+                    </th>
+                    <td>
+                        <label class="radio">
+                            <input type="radio" name="gender" value="male">男性
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="gender" value="female">女性
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="gender" value="other">その他
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="detail">
+                            詳細
+                        </label>
+                    </th>
+                    <td>
+                        <textarea class="textarea" name="" id="detail" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                
+            </table>
+            <div class="form-button">
+                <button type="submit" class="button">送信</button>
+            </div>
+           
+        </form>
+    </section>
+
+    <footer class="footer">
+        <figure class="footer-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12966.991898658345!2d139.7454329!3d35.6585805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1715086569169!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+        
+            <figcaption class="foote-mapInfo">
+                <div class="footer-mapLogo">
+                    東京タワー
+                </div>
+                <address class="footer-mapAddress">
+                    〒105-0011 東京都港区芝公園4-2-8 <br> 
+                    <a href="https://maps.app.goo.gl/jY7oXPh16QWV49Ln6" target="_blank">Google Map</a>
+                </address>
+            </figcaption>
+        </figure>
+        <hr class="footer-line">
+        <small class="footer-copy">Copyright ©XXXXXX Inc.</small>
+    </footer>
+        
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+   
+
+
+body {
+font-family: "Noto Sans JP", "Arial","Meiryo",sans-serif;
+font-size: 15px;
+line-height: 1.5;
+color:#333;
+}
+/*header*/
+header{
+    width: 100%;
+    padding:15px 0;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.headerline {
+    padding: 0px 20px;
+    
+    
+}
+
+.naviList{
+    display:flex;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.naviList-item {
+    list-style: none;
+    
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px;
+    
+}
+
+
